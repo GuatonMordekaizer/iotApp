@@ -25,17 +25,17 @@
     <string name="vista_siete_titulo">Vista 7 📅</string>
     <string name="vista_ocho_titulo">Vista 8 💬</string>
     <string name="cerrar_sesion">Cerrar Sesión 👋</string>
-    <string name="dev_by">Dev By Jubrini Albornoz</string>
+    <string name="dev_by">Aplicaciones Móviles 2025</string>
     
     <!-- Textos de Login -->
     <string name="login_titulo">🔐 Albornoz</string>
     <string name="login_subtitulo">Inicia Sesión</string>
-    <string name="login_hint_usuario">Email</string>
-    <string name="login_hint_password">Contraseña</string>
-    <string name="login_boton_ingresar">Ingresar</string>
+    <string name="login_hint_usuario">Usuario</string>
+    <string name="login_hint_password">Clave</string>
+    <string name="login_boton_ingresar">Iniciar Sesión</string>
     
     <!-- Textos de Splash -->
-    <string name="splash_titulo">Albornoz App</string>
+    <string name="splash_titulo">Eva2</string>
     <string name="splash_cargando">Cargando...</string>
     
     <!-- Textos de Vistas -->

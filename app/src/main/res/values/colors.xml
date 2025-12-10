@@ -18,9 +18,9 @@
     <color name="verde_claro">#66BB6A</color>
     
     <!-- Colores de fondo -->
-    <color name="background_gradient_start">#E3F2FD</color>
-    <color name="background_gradient_end">#BBDEFB</color>
-    
+    <color name="background_gradient_start">#FD0000</color>
+    <color name="background_gradient_end">#926C71</color>
+
     <!-- Colores de texto -->
     <color name="text_primary">#212121</color>
     <color name="text_secondary">#757575</color>

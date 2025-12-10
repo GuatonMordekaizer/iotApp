@@ -8,30 +8,28 @@
     android:background="@drawable/background_gradient"
     android:padding="@dimen/padding_large"
     android:gravity="center"
-    tools:context=".LoginActivity">
+    tools:context=".LoginView">
 
     <!-- Logo o título de la app -->
+    <!-- Logo Image -->
     <androidx.cardview.widget.CardView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="@dimen/corner_radius_large"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        app:cardCornerRadius="80dp"
         app:cardElevation="@dimen/elevation_high"
         app:cardBackgroundColor="@color/white"
         android:layout_marginBottom="@dimen/margin_large">
 
-        <TextView
-            android:id="@+id/tvAppTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/login_titulo"
-            android:textSize="@dimen/text_size_xxlarge"
-            android:textColor="@color/azul"
-            android:textStyle="bold"
-            android:padding="@dimen/padding_large"
-            android:minWidth="200dp"
-            android:gravity="center" />
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_logo"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/desc_imagen_logo" />
 
     </androidx.cardview.widget.CardView>
+
 
     <!-- Tarjeta principal del formulario -->
     <androidx.cardview.widget.CardView
@@ -77,8 +75,8 @@
                     android:hint="@string/login_hint_usuario"
                     android:inputType="textEmailAddress"
                     android:textSize="@dimen/text_size_medium"
-                    android:textColor="@color/text_primary"
-                    android:textColorHint="@color/text_secondary"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
                     android:padding="@dimen/padding_medium"
                     android:background="@android:color/transparent"
                     android:drawablePadding="@dimen/padding_small"
@@ -103,8 +101,8 @@
                     android:hint="@string/login_hint_password"
                     android:inputType="textPassword"
                     android:textSize="@dimen/text_size_medium"
-                    android:textColor="@color/text_primary"
-                    android:textColorHint="@color/text_secondary"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
                     android:padding="@dimen/padding_medium"
                     android:background="@android:color/transparent"
                     android:drawablePadding="@dimen/padding_small"
@@ -128,7 +126,7 @@
                     android:textSize="@dimen/text_size_large"
                     android:textStyle="bold"
                     android:textColor="@color/white"
-                    android:background="@drawable/button_azul"
+                    android:background="@drawable/button_verde"
                     android:contentDescription="@string/desc_boton_login"
                     android:elevation="@dimen/elevation_medium" />
 

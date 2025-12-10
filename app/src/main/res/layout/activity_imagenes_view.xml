@@ -61,29 +61,20 @@
                 app:cardBackgroundColor="@color/azul"
                 android:layout_margin="@dimen/margin_small">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
+
+                <ImageButton
+                    android:id="@+id/botonImagen"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal"
                     android:gravity="center"
-                    android:padding="@dimen/padding_large">
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_logo"
+                    android:scaleType="fitCenter">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="150"
-                        android:textSize="@dimen/text_size_xxlarge"
-                        android:textColor="@color/white"
-                        android:textStyle="bold" />
+                </ImageButton>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Total"
-                        android:textSize="@dimen/text_size_small"
-                        android:textColor="@color/white" />
 
-                </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
@@ -96,29 +87,17 @@
                 app:cardBackgroundColor="@color/verde"
                 android:layout_margin="@dimen/margin_small">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
+                <ImageButton
+                    android:id="@+id/botonImagen2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal"
                     android:gravity="center"
-                    android:padding="@dimen/padding_large">
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_logo"
+                    android:scaleType="fitCenter">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="85%"
-                        android:textSize="@dimen/text_size_xxlarge"
-                        android:textColor="@color/white"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Completado"
-                        android:textSize="@dimen/text_size_small"
-                        android:textColor="@color/white" />
-
-                </LinearLayout>
+                </ImageButton>
 
             </androidx.cardview.widget.CardView>
 

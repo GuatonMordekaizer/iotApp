@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Albornoz</string>
+    
+    <!-- Descripciones de accesibilidad -->
+    <string name="desc_imagen_logo">Logo de la aplicación</string>
+    <string name="desc_boton_vista_uno">Ir a Vista 1</string>
+    <string name="desc_boton_vista_dos">Ir a Vista 2</string>
+    <string name="desc_boton_vista_tres">Ir a Vista 3</string>
+    <string name="desc_boton_vista_cuatro">Ir a Vista 4</string>
+    <string name="desc_boton_vista_cinco">Ir a Vista 5</string>
+    <string name="desc_boton_vista_seis">Ir a Vista 6</string>
+    <string name="desc_boton_vista_siete">Ir a Vista 7</string>
+    <string name="desc_boton_vista_ocho">Ir a Vista 8</string>
+    <string name="desc_boton_login">Botón Iniciar Sesión</string>
+    <string name="desc_boton_cerrar_sesion">Botón Cerrar Sesión</string>
+    
+    <!-- Textos del menú -->
+    <string name="menu_titulo">Menú Principal</string>
+    <string name="vista_uno_titulo">Vista 1 📋</string>
+    <string name="vista_dos_titulo">Vista 2 📊</string>
+    <string name="vista_tres_titulo">Vista 3 📁</string>
+    <string name="vista_cuatro_titulo">Vista 4 ⚙️</string>
+    <string name="vista_cinco_titulo">Vista 5 👤</string>
+    <string name="vista_seis_titulo">Vista 6 📝</string>
+    <string name="vista_siete_titulo">Vista 7 📅</string>
+    <string name="vista_ocho_titulo">Vista 8 💬</string>
+    <string name="cerrar_sesion">Cerrar Sesión 👋</string>
+    <string name="dev_by">Dev By Jubrini Albornoz</string>
+    
+    <!-- Textos de Login -->
+    <string name="login_titulo">🔐 Albornoz</string>
+    <string name="login_subtitulo">Inicia Sesión</string>
+    <string name="login_hint_usuario">Email</string>
+    <string name="login_hint_password">Contraseña</string>
+    <string name="login_boton_ingresar">Ingresar</string>
+    
+    <!-- Textos de Splash -->
+    <string name="splash_titulo">Albornoz App</string>
+    <string name="splash_cargando">Cargando...</string>
+    
+    <!-- Textos de Vistas -->
+    <string name="titulo_lista">Lista de Items</string>
+    <string name="titulo_estadisticas">Estadísticas</string>
+    <string name="titulo_archivos">Archivos</string>
+    <string name="titulo_configuracion">Configuración</string>
+    <string name="titulo_perfil">Mi Perfil</string>
+    <string name="titulo_notas">Notas</string>
+    <string name="titulo_calendario">Calendario</string>
+    <string name="titulo_mensajes">Mensajes</string>
+    <string name="btn_volver">Cerrar Sesion</string>
+</resources>

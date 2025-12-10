@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "410153959346",
+    "project_id": "eva2albornoze1navarretee2",
+    "storage_bucket": "eva2albornoze1navarretee2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410153959346:android:26b49631c83b0ffcd8aeab",
+        "android_client_info": {
+          "package_name": "cl.example.eva2albornoze1navarretee2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzQGm-yHY-OESJMxHgiKp7dD7cwJho43M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

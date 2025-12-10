@@ -33,10 +33,15 @@ class ImagenesView : AppCompatActivity() {
             mp.start()
         }
 
-        val btnBt = findViewById<ImageButton>(R.id.botonImagen2)
-
-        findViewById<Button>(R.id.botonImagen2).setOnClickListener {
+        val coso = findViewById<ImageButton>(R.id.botonImagen2)
+        coso.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
+            //Toast.makeText(this,"👻", Toast.LENGTH_SHORT).show()
+        }
+
+        findViewById<Button>(R.id.btnVolver).setOnClickListener {
+            auth.signOut()
+            startActivity(Intent(this, LoginView::class.java))
             finish()
         }
 

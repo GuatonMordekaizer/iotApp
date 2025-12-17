@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/background_gradient"
+    android:background="@drawable/fondo_3_img"
     android:padding="@dimen/padding_large"
     android:gravity="center"
     tools:context=".LoginView">
@@ -126,7 +126,8 @@
                     android:textSize="@dimen/text_size_large"
                     android:textStyle="bold"
                     android:textColor="@color/white"
-                    android:background="@drawable/button_verde"
+                    android:background="@color/verde_oscuro"
+                    app:backgroundTint="@color/verde_oscuro"
                     android:contentDescription="@string/desc_boton_login"
                     android:elevation="@dimen/elevation_medium" />
 

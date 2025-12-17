@@ -36,7 +36,7 @@
     
     <!-- Textos de Splash -->
     <string name="splash_titulo">Eva2</string>
-    <string name="splash_cargando">Cargando...</string>
+    <string name="splash_cargando"> Cargando... </string>
     
     <!-- Textos de Vistas -->
     <string name="titulo_lista">Lista de Items</string>

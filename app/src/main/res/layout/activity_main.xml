@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@drawable/background_gradient">
+    android:background="@drawable/fondo_4_img">
 
 
     <LinearLayout
@@ -43,7 +43,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/botonInstruccion"
+                android:id="@+id/botonConectar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -66,7 +66,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/botonConectar"
+                android:id="@+id/botonInstruccion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"

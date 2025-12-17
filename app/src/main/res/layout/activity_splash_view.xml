@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/background_gradient"
+    android:background="@drawable/fondo_1_img"
+    android:scaleType="fitCenter"
     android:padding="@dimen/padding_large"
     tools:context=".SplashView">
 
@@ -66,15 +67,6 @@
 
         </androidx.cardview.widget.CardView>
 
-        <!-- Texto cargando -->
-        <TextView
-            android:id="@+id/tvCargando"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/splash_cargando"
-            android:textSize="@dimen/text_size_medium"
-            android:textColor="@color/white"
-            android:layout_marginTop="@dimen/margin_large" />
 
     </LinearLayout>
 
